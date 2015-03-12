@@ -21,11 +21,7 @@ const config = {
       },
       {
         test: /\.sass$/,
-        loaders: [
-          "css-loader",
-          "autoprefixer-loader?browsers=last 2 version",
-          "sass-loader?indentedSyntax=sass&includePaths[]=" + path.resolve(__dirname, "./src"),
-        ],
+        loaders: sassLoaders,
         loader: ExtractTextPlugin.extract("style-loader", sassLoaders.join("!")),
       },
     ]
