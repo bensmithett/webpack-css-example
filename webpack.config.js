@@ -21,7 +21,6 @@ const config = {
       },
       {
         test: /\.sass$/,
-        loaders: sassLoaders,
         loader: ExtractTextPlugin.extract("style-loader", sassLoaders.join("!")),
       },
     ]
