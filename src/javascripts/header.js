@@ -1,7 +1,7 @@
-const React = require("react");
+import React from "react";
 
-require("stylesheets/modules/header");
-require("stylesheets/utilities/clearfix");
+import "stylesheets/modules/header";
+import "stylesheets/utilities/clearfix";
 
 const Header = React.createClass({
   render () {
@@ -13,4 +13,4 @@ const Header = React.createClass({
   }
 });
 
-module.exports = Header;
+export default Header;

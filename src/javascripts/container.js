@@ -1,8 +1,8 @@
-const React = require("react");
-const Header = require("javascripts/header");
-const Footer = require("javascripts/footer");
+import React from "react";
+import Header from "javascripts/header";
+import Footer from "javascripts/footer";
 
-require("stylesheets/modules/container");
+import "stylesheets/modules/container";
 
 const Container = React.createClass({
   render () {
@@ -15,4 +15,4 @@ const Container = React.createClass({
   }
 });
 
-module.exports = Container;
+export default Container;

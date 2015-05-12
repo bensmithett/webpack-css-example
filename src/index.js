@@ -1,7 +1,7 @@
-const React = require("react");
+import React from "react";
 
-require("stylesheets/base");
+import "stylesheets/base";
 
-const Container = require("javascripts/container");
+import Container from "javascripts/container";
 
 React.render(<Container />, document.querySelector("#main"));

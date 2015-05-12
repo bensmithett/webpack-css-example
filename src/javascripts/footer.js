@@ -1,6 +1,6 @@
-const React = require("react");
+import React from "react";
 
-require("stylesheets/modules/footer");
+import "stylesheets/modules/footer";
 
 const Footer = React.createClass({
   render () {
@@ -12,4 +12,4 @@ const Footer = React.createClass({
   }
 });
 
-module.exports = Footer;
+export default Footer;
