@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "lint": "standard"
+    "lint": "standard",
+    "test": "standard && webpack"
   },
   "repository": {
     "type": "git",
