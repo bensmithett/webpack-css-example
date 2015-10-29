@@ -1,3 +1,5 @@
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+
 # webpack-css-example
 
 Example repo showing how to automatically generate a CSS bundle from explicitly required Sass source with Webpack.
@@ -9,3 +11,7 @@ Example repo showing how to automatically generate a CSS bundle from explicitly 
 - `npm install`
 - `npm run build`
 - Take a look at the generated CSS in `build/`
+
+## Contributing
+
+The JavaScript in this example is written in [JavaScript Standard Style](http://standardjs.com/). Please run `npm run lint` before submitting changes.

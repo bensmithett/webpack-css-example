@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react'
 
-import "stylesheets/modules/footer";
+import 'stylesheets/modules/footer'
 
 const Footer = React.createClass({
   render () {
     return (
-      <div className="footer">
+      <div className='footer'>
         Footer
       </div>
-    );
+    )
   }
-});
+})
 
-export default Footer;
+export default Footer

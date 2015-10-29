@@ -1,7 +1,6 @@
-import React from "react";
+import 'stylesheets/base'
 
-import "stylesheets/base";
+import React from 'react'
+import Container from 'javascripts/container'
 
-import Container from "javascripts/container";
-
-React.render(<Container />, document.querySelector("#main"));
+React.render(<Container />, document.querySelector('#main'))
