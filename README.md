@@ -1,4 +1,5 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+[![NPM dependencies status](https://david-dm.org/bensmithett/webpack-css-example.svg)](https://david-dm.org/bensmithett/webpack-css-example)
 
 # webpack-css-example
 
