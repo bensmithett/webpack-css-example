@@ -1,6 +1,6 @@
 {
   "name": "webpack-css-example",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Example repo showing a webpack CSS build",
   "main": "src/index.js",
   "engines": {
@@ -10,7 +10,7 @@
   "scripts": {
     "build": "webpack",
     "lint": "standard",
-    "test": "standard && webpack"
+    "test": "standard && webpack --bail"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,10 @@
   "homepage": "https://github.com/bensmithett/webpack-css-example",
   "dependencies": {
     "autoprefixer": "^6.0.3",
-    "babel-loader": "^5.3.2",
+    "babel-core": "^6.0.14",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.0.14",
+    "babel-preset-react": "^6.0.14",
     "css-loader": "^0.21.0",
     "extract-text-webpack-plugin": "^0.8.2",
     "node-sass": "^3.4.1",
