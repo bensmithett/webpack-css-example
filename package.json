@@ -24,7 +24,7 @@
   "homepage": "https://github.com/bensmithett/webpack-css-example",
   "dependencies": {
     "autoprefixer": "^6.0.3",
-    "babel-loader": "^5.3.2",
+    "babel-loader": "^6.0.0",
     "css-loader": "^0.21.0",
     "extract-text-webpack-plugin": "^0.8.2",
     "node-sass": "^3.4.1",
