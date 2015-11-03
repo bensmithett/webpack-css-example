@@ -24,7 +24,7 @@
   "homepage": "https://github.com/bensmithett/webpack-css-example",
   "dependencies": {
     "autoprefixer": "^6.0.3",
-    "babel-core": "^6.0.14",
+    "babel-core": "^6.0.18",
     "babel-loader": "^6.0.0",
     "babel-preset-es2015": "^6.0.14",
     "babel-preset-react": "^6.0.14",
