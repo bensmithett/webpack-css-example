@@ -3,7 +3,7 @@
 [![npm devDependencies status](https://david-dm.org/bensmithett/webpack-css-example/dev-status.svg)](https://david-dm.org/bensmithett/webpack-css-example#info=devDependencies)
 [![Build Status](https://travis-ci.org/bensmithett/webpack-css-example.svg?branch=master)](https://travis-ci.org/bensmithett/webpack-css-example)
 
-# webpack-css-example
+# Webpack CSS Example
 
 Example repo showing how to automatically generate a CSS bundle from explicitly required Sass source with Webpack.
 
@@ -17,4 +17,10 @@ Example repo showing how to automatically generate a CSS bundle from explicitly 
 
 ## Contributing
 
-The JavaScript in this example is written in [JavaScript Standard Style](http://standardjs.com/). Please run `npm run lint` before submitting changes.
+Please adhere to the existing code style. JavaScript that doesn't comply with [standard](http://standardjs.com/) will cause the build to fail.
+
+All issues, pull requests & code contributions must comply with the [Contributor Code of Conduct](./CODE_OF_CONDUCT.md)
+
+## License
+
+Webpack CSS Example is released under the [MIT License](http://ben.mit-license.org/).
