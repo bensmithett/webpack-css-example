@@ -40,7 +40,7 @@ const config = {
   ],
   resolve: {
     extensions: ['', '.js', '.sass'],
-    modulesDirectories: ['src', 'node_modules']
+    root: [path.join(__dirname, './src')]
   }
 }
 
