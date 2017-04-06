@@ -39,6 +39,6 @@
     "webpack": "^1.13.1"
   },
   "devDependencies": {
-    "standard": "^8.2.0"
+    "standard": "^10.0.1"
   }
 }
