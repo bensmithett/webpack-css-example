@@ -5,6 +5,8 @@
 
 # Webpack CSS Example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bensmithett/webpack-css-example.svg)](https://greenkeeper.io/)
+
 Example repo showing how to automatically generate a CSS bundle from explicitly required Sass source with Webpack.
 
 :sparkles: [**Read the blog post!**](http://bensmithett.com/smarter-css-builds-with-webpack/) :sparkles:
