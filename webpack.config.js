@@ -2,45 +2,62 @@ const autoprefixer = require('autoprefixer')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const path = require('path')
 
-const sassLoaders = [
-  'css-loader',
-  'postcss-loader',
-  'sass-loader?indentedSyntax=sass&includePaths[]=' + path.resolve(__dirname, './src')
-]
+const loaders = {
+  css: {
+    loader: 'css-loader'
+  },
+  postcss: {
+    loader: 'postcss-loader',
+    options: {
+      plugins: (loader) => [
+        autoprefixer({
+          browsers: ['last 2 versions']
+        })
+      ]
+    }
+  },
+  sass: {
+    loader: 'sass-loader',
+    options: {
+      indentedSyntax: true,
+      includePaths: [path.resolve(__dirname, './src')]
+    }
+  }
+}
 
 const config = {
   entry: {
     app: ['./src/index']
   },
+
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loaders: ['babel-loader']
+        use: ['babel-loader']
       },
       {
         test: /\.sass$/,
-        loader: ExtractTextPlugin.extract('style-loader', sassLoaders.join('!'))
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: [loaders.css, loaders.postcss, loaders.sass]
+        })
       }
     ]
   },
+
   output: {
     filename: '[name].js',
     path: path.join(__dirname, './build'),
     publicPath: '/build'
   },
-  plugins: [
-    new ExtractTextPlugin('[name].css')
-  ],
-  postcss: [
-    autoprefixer({
-      browsers: ['last 2 versions']
-    })
-  ],
+
+  plugins: [new ExtractTextPlugin('[name].css')],
+
   resolve: {
-    extensions: ['', '.js', '.sass'],
-    root: [path.join(__dirname, './src')]
+    extensions: ['.js', '.sass'],
+    modules: [path.join(__dirname, './src'), 'node_modules']
   }
 }
 

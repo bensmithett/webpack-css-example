@@ -11,8 +11,8 @@ Example repo showing how to automatically generate a CSS bundle from explicitly 
 
 ## Running
 
-- `npm install`
-- `npm run build`
+- `yarn install` (or `npm install`)
+- `yarn run build` (or `npm run build`)
 - Take a look at the generated CSS in `build/`
 
 ## Contributing
