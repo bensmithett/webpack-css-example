@@ -3083,9 +3083,9 @@ postcss-load-plugins@^2.3.0:
     cosmiconfig "^2.1.1"
     object-assign "^4.1.0"
 
-postcss-loader@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-2.0.1.tgz#4078aef52336c2434415aabaacbf9d7e7ae025e8"
+postcss-loader@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-2.0.3.tgz#1aac19ef0ce78866f204c0f6299a386556c555a0"
   dependencies:
     loader-utils "^1.x"
     postcss "^6.x"

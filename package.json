@@ -27,7 +27,7 @@
     "css-loader": "^0.28.1",
     "extract-text-webpack-plugin": "^2.1.0",
     "node-sass": "^4.1.0",
-    "postcss-loader": "^2.0.1",
+    "postcss-loader": "^2.0.3",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "sass-loader": "^6.0.3",
