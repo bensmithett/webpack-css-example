@@ -1,6 +1,6 @@
 {
   "name": "webpack-css-example",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Example repo showing a webpack CSS build",
   "main": "src/index.js",
   "scripts": {
