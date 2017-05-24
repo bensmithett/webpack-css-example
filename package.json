@@ -35,8 +35,8 @@
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "sass-loader": "^6.0.3",
-    "style-loader": "^0.17.0",
-    "webpack": "^2.4.1"
+    "style-loader": "^0.18.1",
+    "webpack": "^2.5.1"
   },
   "devDependencies": {
     "standard": "^10.0.2"
