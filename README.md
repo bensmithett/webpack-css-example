@@ -2,10 +2,9 @@
 [![npm dependencies status](https://david-dm.org/bensmithett/webpack-css-example.svg)](https://david-dm.org/bensmithett/webpack-css-example)
 [![npm devDependencies status](https://david-dm.org/bensmithett/webpack-css-example/dev-status.svg)](https://david-dm.org/bensmithett/webpack-css-example#info=devDependencies)
 [![Build Status](https://travis-ci.org/bensmithett/webpack-css-example.svg?branch=master)](https://travis-ci.org/bensmithett/webpack-css-example)
+[![Greenkeeper badge](https://badges.greenkeeper.io/bensmithett/webpack-css-example.svg)](https://greenkeeper.io/)
 
 # Webpack CSS Example
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/bensmithett/webpack-css-example.svg)](https://greenkeeper.io/)
 
 Example repo showing how to automatically generate a CSS bundle from explicitly required Sass source with Webpack.
 
