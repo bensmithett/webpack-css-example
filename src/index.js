@@ -1,7 +1,5 @@
-import 'stylesheets/base'
+import function1 from './function1'
+import function2 from './function2'
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import Container from 'javascripts/container'
-
-ReactDOM.render(<Container />, document.querySelector('#main'))
+function1()
+function2()
