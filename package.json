@@ -32,7 +32,7 @@
     "react-dom": "^16.2.0",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.20.0",
-    "webpack": "^3.0.0"
+    "webpack": "^4.13.0"
   },
   "devDependencies": {
     "standard": "^11.0.0"
