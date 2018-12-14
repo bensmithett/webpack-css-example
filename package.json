@@ -24,7 +24,7 @@
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.1.4",
-    "css-loader": "^0.28.1",
+    "css-loader": "^2.0.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "node-sass": "^4.1.0",
     "postcss-loader": "^2.0.3",
