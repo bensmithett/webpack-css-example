@@ -29,7 +29,7 @@
     "node-sass": "^4.1.0",
     "postcss-loader": "^2.0.3",
     "react": "^16.8.5",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.8.5",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.20.0",
     "webpack": "^3.0.0"
